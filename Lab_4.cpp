@@ -48,7 +48,7 @@ public:
     }
 };
 
-// Хэш-функция для пар индексов (добавляем перед классом SparseMatrix)
+// Хэш-функция для пар индексов
 struct pair_hash {
     template <class T1, class T2>
     size_t operator()(const std::pair<T1, T2>& pair) const {
